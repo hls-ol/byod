@@ -12,7 +12,7 @@ description = "Doks is a Hugo theme for building secure, fast, and SEO-ready doc
 ## Open Graph
 images = ["doks.png"]
 ogLocale = "de_DE"
-domainTLD = "doks.netlify.app"
+domainTLD = "byod.hls-ol.de"
 titleHome = "Doks Theme"
 
 ## Twitter Cards

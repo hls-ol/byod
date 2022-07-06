@@ -1,18 +1,17 @@
-baseurl = "https://byod.hls-ol.de/"
+baseurl = "/"
 canonifyURLs = false
 disableAliases = true
 disableHugoGeneratorInject = true
 enableEmoji = true
 enableGitInfo = false
 enableRobotsTXT = true
-languageCode = "en-US"
+languageCode = "de-DE"
 paginate = 7
 rssLimit = 10
 
 # Multilingual
 defaultContentLanguage = "de"
 disableLanguages = []
-# defaultContentLanguageInSubdir = true
 
 # add redirects/headers
 [outputs]
@@ -52,6 +51,29 @@ rel  = "sitemap"
     dir = ":cacheDir/:project"
     maxAge = "10s"
 
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.extensions]
+      linkify = false
+    [markup.goldmark.parser]
+      autoHeadingID = true
+      autoHeadingIDType = "github"
+      [markup.goldmark.parser.attribute]
+        block = true
+        title = true
+    [markup.goldmark.renderer]
+      unsafe = true
+  [markup.highlight]
+    codeFences = false
+    guessSyntax = false
+    hl_Lines = ""
+    lineNoStart = 1
+    lineNos = false
+    lineNumbersInTable = true
+    noClasses = false
+    style = "dracula"
+    tabWidth = 4
+
 [sitemap]
   changefreq = "weekly"
   filename = "sitemap.xml"
@@ -62,7 +84,6 @@ rel  = "sitemap"
 
 [permalinks]
   blog = "/blog/:title/"
-# docs = "/docs/1.0/:sections[1:]/:title/"
 
 [minify.tdewolff.html]
   keepWhitespace = false
