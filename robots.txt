@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://byod.hls-ol.de/sitemap.xml
+Sitemap: /sitemap.xml
