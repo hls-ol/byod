@@ -1,10 +1,10 @@
 # Meta Data for SEO
 
 ## Homepage
-title = "Doks"
+title = "How to BYOD"
 titleSeparator = "-"
-titleAddition = "Modern Documentation Theme"
-description = "Doks is a Hugo theme for building secure, fast, and SEO-ready documentation websites, which you can easily update and customize."
+titleAddition = "Eine Informationsquelle zu BYOD"
+description = "Auch wenn BYOD vielleicht sehr toll für viele verschiedene Personen sein kann, gibt es immer wieder viele verschiede Fragen."
 
 ## Documentation
 # docsVersion = "0.3"
@@ -85,7 +85,7 @@ lastMod = false
   flexSearch = true
   darkMode = true
   bootStrapJs = true
-  breadCrumb = false
+  breadCrumb = true
   highLight = true
   kaTex = false
   multilingualMode = false

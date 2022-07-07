@@ -1,2 +1,5 @@
 [get-started]
    other = "Get Started"
+
+[url-lang-name]
+   other = "en/"
